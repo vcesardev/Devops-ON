@@ -119,6 +119,8 @@ jobs:
         shell: bash
         run: |
           echo "Deploy PRE"
+        run: |
+          echo "Deploy Test"
   
   SmoketestPre:
     runs-on: ubuntu-latest
