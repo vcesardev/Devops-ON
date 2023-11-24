@@ -150,7 +150,7 @@ jobs:
     if: github.ref == 'refs/heads/main'
     environment:
       name: prod
-    needs: testeFuncionais
+    needs: testeIntegrados
     steps:
       - name: Deploy 
         shell: bash
